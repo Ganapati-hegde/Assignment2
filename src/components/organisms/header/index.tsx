@@ -14,7 +14,7 @@ const Header = (props: headerProps) => {
   return (
     <div className={classNames('header')}>
       <Image
-        imageClass="logo-width logo-height"
+        imageClass="logo-width logo-height pH-16"
         linkTo="/home"
         source={AppLogo}
       />
