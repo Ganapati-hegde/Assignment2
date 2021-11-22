@@ -1,10 +1,37 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.row {
+  width: 75%;
+}
+.margin-auto{
+  margin: auto;
+}
+.flex{
+  display: flex;
+}
+.bottom-placing{
+  position: absolute;
+  bottom: 16px;
+  right:16px
+}
+.relative{
+  position: relative;
+}
+.truncate{
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.image-height{
+  height: 200px;
+}
+.image-width{
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

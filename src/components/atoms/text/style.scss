@@ -1,0 +1,21 @@
+@import "../../variables/constants";
+
+.normal-font {
+    font-family: $primary_font;
+    font-size: $medium_font;
+    color: $black_color;
+    text-transform: capitalize;
+    line-height: 18px;
+}
+.large-font {
+    font-size: $large_font;
+}
+.small-font {
+    font-size: $small_font;
+}
+.medium-font {
+    font-size: $medium_font;
+}
+.bold {
+    font-weight: 600;
+}

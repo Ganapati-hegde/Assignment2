@@ -1,0 +1,35 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mH-16 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mV-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.flex-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.full-width {
+  width: 100%;
+}/*# sourceMappingURL=commonStyles.css.map */

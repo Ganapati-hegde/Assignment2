@@ -1,0 +1,19 @@
+@import "../../variables/constants";
+
+.header {
+    background-color: $dark_grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+    width: 100%;
+}
+.logo-height {
+    height: 50px;
+}
+.logo-width {
+    width: 50px;
+}

@@ -1,0 +1,36 @@
+@import "../variables/constants.scss";
+
+@mixin commonButton() {
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: $primary_font;
+    font-weight: $bold_font;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.mH-16 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.mV-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.full-width {
+    width: 100%;
+}

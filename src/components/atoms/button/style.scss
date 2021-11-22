@@ -1,0 +1,29 @@
+@import "../../commonStyles/commonStyles.scss";
+@import "../../variables/constants.scss";
+
+.medium {
+    width: 100px;
+}
+
+.small {
+    width: 50px;
+}
+.large {
+    width: 200px;
+}
+.primary {
+    background-color: $primary_color;
+}
+.white-button {
+    background-color: $white_color;
+}
+.black-button {
+    background-color: $dark_grey;
+}
+.white-text {
+    color: $white_color;
+}
+
+.button {
+    @include commonButton();
+}

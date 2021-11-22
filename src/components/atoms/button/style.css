@@ -1,0 +1,73 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mH-16 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mV-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.flex-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.medium {
+  width: 100px;
+}
+
+.small {
+  width: 50px;
+}
+
+.large {
+  width: 200px;
+}
+
+.primary {
+  background-color: #ff69b4;
+}
+
+.white-button {
+  background-color: #fff;
+}
+
+.black-button {
+  background-color: #24292f;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
